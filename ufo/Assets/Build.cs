@@ -11,7 +11,7 @@ public class Build {
 	}
 	
 	// Update is called once per frame
-    void BuildiOSForReal () {
+    static void BuildiOSForReal () {
         string[] scenes = { "Assets/Main.unity" };
         BuildPipeline.BuildPlayer(scenes,"/.",BuildTarget.iOS,BuildOptions.None);
 	}
