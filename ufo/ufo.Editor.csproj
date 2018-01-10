@@ -156,6 +156,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\Build.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs" />
   </ItemGroup>
   <ItemGroup>
